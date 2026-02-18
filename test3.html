@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Are you a Planner or Spontaneous?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="box">
+
+    <div class="progress-wrapper">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+
+    <h1>Are you a Planner or Spontaneous?</h1>
+
+    <div class="question">
+        <p>When making plans, you usually:</p>
+        <label class="option">
+            <input type="radio" name="q1" value="planner">
+            Plan everything in advance
+        </label>
+        <label class="option">
+            <input type="radio" name="q1" value="spontaneous">
+            Decide as you go
+        </label>
+    </div>
+
+    <div class="question">
+        <p>Your schedule is usually:</p>
+        <label class="option">
+            <input type="radio" name="q2" value="planner">
+            Organized and structured
+        </label>
+        <label class="option">
+            <input type="radio" name="q2" value="spontaneous">
+            Flexible and open
+        </label>
+    </div>
+
+    <div class="question">
+        <p>When a plan suddenly changes, you feel:</p>
+        <label class="option">
+            <input type="radio" name="q3" value="planner">
+            A bit stressed
+        </label>
+        <label class="option">
+            <input type="radio" name="q3" value="spontaneous">
+            Excited or curious
+        </label>
+    </div>
+
+    <div class="question">
+        <p>Before a trip, you:</p>
+        <label class="option">
+            <input type="radio" name="q4" value="planner">
+            Research and plan everything
+        </label>
+        <label class="option">
+            <input type="radio" name="q4" value="spontaneous">
+            Figure it out along the way
+        </label>
+    </div>
+
+    <div class="question">
+        <p>Your to-do list is:</p>
+        <label class="option">
+            <input type="radio" name="q5" value="planner">
+            Detailed and prioritized
+        </label>
+        <label class="option">
+            <input type="radio" name="q5" value="spontaneous">
+            Short or non-existent
+        </label>
+    </div>
+
+    <div class="question">
+        <p>You prefer weekends that are:</p>
+        <label class="option">
+            <input type="radio" name="q6" value="planner">
+            Planned ahead
+        </label>
+        <label class="option">
+            <input type="radio" name="q6" value="spontaneous">
+            Completely unplanned
+        </label>
+    </div>
+
+    <div class="question">
+        <p>When starting a project, you:</p>
+        <label class="option">
+            <input type="radio" name="q7" value="planner">
+            Create a clear plan first
+        </label>
+        <label class="option">
+            <input type="radio" name="q7" value="spontaneous">
+            Jump right in
+        </label>
+    </div>
+
+    <div class="question">
+        <p>Deadlines make you feel:</p>
+        <label class="option">
+            <input type="radio" name="q8" value="planner">
+            Motivated and focused
+        </label>
+        <label class="option">
+            <input type="radio" name="q8" value="spontaneous">
+            Restricted and pressured
+        </label>
+    </div>
+
+    <div class="question">
+        <p>You enjoy routines because they are:</p>
+        <label class="option">
+            <input type="radio" name="q9" value="planner">
+            Reliable and efficient
+        </label>
+        <label class="option">
+            <input type="radio" name="q9" value="spontaneous">
+            Boring and limiting
+        </label>
+    </div>
+
+    <div class="question">
+        <p>If you suddenly had a free day, you would:</p>
+        <label class="option">
+            <input type="radio" name="q10" value="planner">
+            Plan how to use it
+        </label>
+        <label class="option">
+            <input type="radio" name="q10" value="spontaneous">
+            Go with the flow
+        </label>
+    </div>
+
+    <button type="button" class="submit-btn" onclick="checkResult()">Submit</button>
+    <div id="result"></div>
+
+</div>
+
+<script src="test3.js"></script>
+</body>
+</html>

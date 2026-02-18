@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>What is your decision-making style?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="box">
+
+    <div class="progress-wrapper">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+
+    <h1>What is your decision-making style?</h1>
+
+    <div class="question">
+        <p>When faced with an important decision, you usually:</p>
+        <label class="option">
+            <input type="radio" name="q1" value="analytical">
+            List pros and cons carefully
+        </label>
+        <label class="option">
+            <input type="radio" name="q1" value="intuitive">
+            Go with what feels right
+        </label>
+    </div>
+
+    <div class="question">
+        <p>You trust decisions that are based on:</p>
+        <label class="option">
+            <input type="radio" name="q2" value="analytical">
+            Facts and data
+        </label>
+        <label class="option">
+            <input type="radio" name="q2" value="intuitive">
+            Instinct and emotions
+        </label>
+    </div>
+
+    <div class="question">
+        <p>Before making a choice, you prefer to:</p>
+        <label class="option">
+            <input type="radio" name="q3" value="analytical">
+            Take time to analyze
+        </label>
+        <label class="option">
+            <input type="radio" name="q3" value="intuitive">
+            Decide quickly
+        </label>
+    </div>
+
+    <div class="question">
+        <p>Uncertainty makes you feel:</p>
+        <label class="option">
+            <input type="radio" name="q4" value="analytical">
+            Uncomfortable until resolved
+        </label>
+        <label class="option">
+            <input type="radio" name="q4" value="intuitive">
+            Curious and open
+        </label>
+    </div>
+
+    <div class="question">
+        <p>When choosing between options, you focus more on:</p>
+        <label class="option">
+            <input type="radio" name="q5" value="analytical">
+            Long-term consequences
+        </label>
+        <label class="option">
+            <input type="radio" name="q5" value="intuitive">
+            Immediate feelings
+        </label>
+    </div>
+
+    <div class="question">
+        <p>You are more likely to regret a decision if you:</p>
+        <label class="option">
+            <input type="radio" name="q6" value="analytical">
+            Didn’t think it through enough
+        </label>
+        <label class="option">
+            <input type="radio" name="q6" value="intuitive">
+            Ignored your gut feeling
+        </label>
+    </div>
+
+    <div class="question">
+        <p>In group decisions, you usually:</p>
+        <label class="option">
+            <input type="radio" name="q7" value="analytical">
+            Analyze everyone’s arguments
+        </label>
+        <label class="option">
+            <input type="radio" name="q7" value="intuitive">
+            Sense the overall vibe
+        </label>
+    </div>
+
+    <div class="question">
+        <p>Your decision-making style is best described as:</p>
+        <label class="option">
+            <input type="radio" name="q8" value="analytical">
+            Structured and logical
+        </label>
+        <label class="option">
+            <input type="radio" name="q8" value="intuitive">
+            Flexible and instinctive
+        </label>
+    </div>
+
+    <div class="question">
+        <p>You feel most confident in a decision when:</p>
+        <label class="option">
+            <input type="radio" name="q9" value="analytical">
+            You’ve researched thoroughly
+        </label>
+        <label class="option">
+            <input type="radio" name="q9" value="intuitive">
+            It just feels right
+        </label>
+    </div>
+
+    <div class="question">
+        <p>If you had limited time to decide, you would:</p>
+        <label class="option">
+            <input type="radio" name="q10" value="analytical">
+            Make the most logical choice
+        </label>
+        <label class="option">
+            <input type="radio" name="q10" value="intuitive">
+            Trust your instincts
+        </label>
+    </div>
+
+    <button class="submit-btn" onclick="checkResult()">Submit</button>
+    <div id="result"></div>
+
+</div>
+
+<script src="test2.js"></script>
+</body>
+</html>
